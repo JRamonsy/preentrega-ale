@@ -62,6 +62,15 @@ body{
 
 .informativo{
   text-align: center;
+  
+  
+}
+
+.slogan{
+  text-align: center;
+  background: lightgray;
+  text-transform: uppercase;
+  
 }
 
 @media (max-width: 600px){
@@ -328,14 +337,14 @@ body{
   grid-template-areas:  "titulo-Tarifas titulo-Tarifas titulo-Tarifas titulo-Tarifas"
                         "widget-1 contenido1 contenido1 widget-2"     
                         "widget-3 contenido2 contenido2 widget-4"  
-                        "footer footer footer footer"; 
+                        "informativo informativo informativo informativo"; 
 }
 
 .contenedor-tarifas > div,
 .contenedor-tarifas .titulo-Tarifas
 .contenedor-tarifas .contenido1 
 .contenedor-tarifas .contenido2
-.contenedor-tarifas .footer 
+.contenedor-tarifas .informativo
 {
   
   padding: 5px;
@@ -422,11 +431,11 @@ body{
   grid-area: widget-4; 
 }
 
-.contenedor-tarifas .informativo-tarifas {
+.contenedor-tarifas .informativo {
   
   color: black;
   
-  grid-area: footer;
+  grid-area: informativo;
   
 }
 
@@ -438,7 +447,7 @@ body{
                           "widget-1 widget-1 widget-1 widget-2"
                           "contenido2 contenido2 contenido2 contenido2"
                           "widget-3 widget-3 widget-3 widget-4"
-                          "footer footer footer footer"
+                          "informativo informativo informativo informativo"
  }
   .contenedor-tarifas .widget-1,
   .contenedor-tarifas .widget-3{
@@ -460,7 +469,7 @@ body{
                           "contenido2 contenido2 contenido2 contenido2"
                           "widget-3 widget-3 widget-3 widget-3"
                           "widget-4 widget-4 widget-4 widget-4"
-                          "footer footer footer footer"
+                          "informativo informativo informativo informativo"
   }
   .contenedor-tarifas{
     
@@ -489,7 +498,7 @@ body{
                         "contenido-contacto contenido-contacto"
                         "titulo-ubicacion titulo-ubicacion"
                         "mapa contenido-ubicacion"
-                        "informativo-contacto informativo-contacto";
+                        "informativo informativo";
 }
 
 .contenedor-contacto-ubicacion > div,
@@ -551,10 +560,10 @@ body{
 
 
 
-.contenedor-contacto-ubicacion .informativo-contacto {
+.contenedor-contacto-ubicacion .informativo {
   
   color: black;
-  grid-area: informativo-contacto;
+  grid-area: informativo;
 
 }
 
@@ -565,7 +574,7 @@ body{
       "titulo-ubicacion titulo-ubicacion"
       "contenido-ubicacion contenido-ubicacion"
       "mapa mapa"
-      "informativo-contacto informativo-contacto";
+      "informativo informativo";
 
 
   }
@@ -588,7 +597,7 @@ body{
                           "titulo-ubicacion titulo-ubicacion"
                           "contenido-ubicacion contenido-ubicacion"
                           "mapa mapa"
-                          "informativo-contacto informativo-contacto";
+                          "informativo informativo";
     
   
 
