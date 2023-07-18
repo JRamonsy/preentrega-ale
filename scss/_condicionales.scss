@@ -1,0 +1,96 @@
+/*pagina index y servicios*/
+$fuente: 2;
+
+@if $fuente == 1 {
+    .titulo-pagina {
+        font-family:Arial, Helvetica, sans-serif
+    }
+}
+
+@else if $fuente == 2 {
+    .titulo-pagina {
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+}
+
+/*pagina sobre mi*/
+
+$fuente: 2;
+
+@if $fuente ==1 {
+    .titulo-sobre-mi {
+        font-family: Arial, Helvetica, sans-serif
+    }
+}
+
+@else if $fuente ==2 {
+    .titulo-sobre-mi {
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+}
+
+@else if $fuente ==3 {
+    .titulo-sobre-mi {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+}
+
+@else {
+    .titulo-sobre-mi{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+/*pagina tarifas*/
+$fuente: 2;
+
+@if $fuente ==1 {
+    .titulo-Tarifas {
+        font-family: Arial, Helvetica, sans-serif
+    }
+}
+
+@else if $fuente ==2 {
+    .titulo-Tarifas {
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+}
+
+@else if $fuente ==3 {
+    .titulo-Tarifas {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+}
+
+@else {
+    .titulo-Tarifas {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+/*pagina contacto y ubicacion*/
+$fuente: 2;
+
+@if $fuente ==1 {
+    .titulo-contacto {
+        font-family: Arial, Helvetica, sans-serif
+    }
+}
+
+@else if $fuente ==2 {
+    .titulo-contacto {
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+}
+
+@else if $fuente ==3 {
+    .titulo-contacto {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+}
+
+@else {
+    .titulo-contacto {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
