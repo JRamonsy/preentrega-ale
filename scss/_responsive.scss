@@ -85,3 +85,52 @@
     }
 
 }
+
+/*tarifas*/
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    .contenedor-tarifas {
+    grid-template-areas: "titulo-Tarifas titulo-Tarifas titulo-Tarifas titulo-Tarifas"
+    "contenido1 contenido1 contenido1 contenido1"
+    "widget-1 widget-1 widget-1 widget-2"
+    "contenido2 contenido2 contenido2 contenido2"
+    "widget-3 widget-3 widget-3 widget-4"
+    "informativo informativo informativo informativo"
+}
+
+.contenedor-tarifas .widget-1,
+.contenedor-tarifas .widget-3 {
+    width: 80%;
+}
+
+.contenedor-tarifas .widget-2,
+.contenedor-tarifas .widget-4 {
+    padding-right: 200px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+.contenedor-tarifas {
+    grid-template-areas: "titulo-Tarifas titulo-Tarifas titulo-Tarifas titulo-Tarifas"
+    "contenido1 contenido1 contenido1 contenido1"
+    "widget-1 widget-1 widget-1 widget-1"
+    "widget-2 widget-2 widget-2 widget-2"
+    "contenido2 contenido2 contenido2 contenido2"
+    "widget-3 widget-3 widget-3 widget-3"
+    "widget-4 widget-4 widget-4 widget-4"
+    "informativo informativo informativo informativo"
+}
+
+.contenedor-tarifas {
+
+    text-align: center;
+}
+
+.contenedor-tarifas .widget-1,
+.contenedor-tarifas .widget-2,
+.contenedor-tarifas .widget-3,
+.contenedor-tarifas .widget-4 {
+    width: 90%;
+}
+
+}

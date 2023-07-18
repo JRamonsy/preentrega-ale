@@ -131,6 +131,84 @@
   grid-column: span 3;
 }
 
+.contenedor-tarifas > div,
+.contenedor-tarifas .titulo-Tarifas .contenedor-tarifas .contenido1 .contenedor-tarifas .contenido2 .contenedor-tarifas .informativo {
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.contenedor-tarifas {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "titulo-Tarifas titulo-Tarifas titulo-Tarifas titulo-Tarifas" "widget-1 contenido1 contenido1 widget-2" "widget-3 contenido2 contenido2 widget-4" "informativo informativo informativo informativo";
+}
+.contenedor-tarifas .titulo-Tarifas {
+  color: black;
+  text-align: center;
+  grid-area: titulo-Tarifas;
+}
+.contenedor-tarifas .contenido1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: contenido1;
+}
+.contenedor-tarifas .contenido2 {
+  text-align: center;
+  grid-area: contenido2;
+}
+.contenedor-tarifas .widget-1 {
+  color: white;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: widget-1;
+}
+.contenedor-tarifas .widget-2 {
+  color: white;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: widget-2;
+}
+.contenedor-tarifas .widget-3 {
+  color: white;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: widget-3;
+}
+.contenedor-tarifas .widget-4 {
+  color: white;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: widget-4;
+}
+.contenedor-tarifas .imagen-tarifas {
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+.contenedor-tarifas .informativo {
+  color: black;
+  grid-area: informativo;
+}
+
 /* index*/
 @media (max-width: 600px) {
   #contenedor-descripcion {
@@ -206,112 +284,7 @@
     grid-column: span 3;
   }
 }
-* {
-  margin: 0;
-}
-
-body {
-  padding-top: 90px;
-  background: gray;
-}
-
-.navbar {
-  box-shadow: 0 4px 5px #e5e5e5;
-  background-color: rgb(217, 214, 211);
-}
-.navbar .logo {
-  height: 50px;
-  border-radius: 50px;
-}
-
-/*pagina tarifas */
-.contenedor-tarifas {
-  width: 90%;
-  max-width: 1000px;
-  margin: 20px auto;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, auto);
-  grid-template-areas: "titulo-Tarifas titulo-Tarifas titulo-Tarifas titulo-Tarifas" "widget-1 contenido1 contenido1 widget-2" "widget-3 contenido2 contenido2 widget-4" "informativo informativo informativo informativo";
-}
-
-.contenedor-tarifas > div,
-.contenedor-tarifas .titulo-Tarifas .contenedor-tarifas .contenido1 .contenedor-tarifas .contenido2 .contenedor-tarifas .informativo {
-  padding: 5px;
-  border-radius: 4px;
-}
-
-.contenedor-tarifas .titulo-Tarifas {
-  color: black;
-  text-align: center;
-  grid-area: titulo-Tarifas;
-}
-
-.contenedor-tarifas .contenido1 {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-area: contenido1;
-}
-
-.contenedor-tarifas .contenido2 {
-  text-align: center;
-  grid-area: contenido2;
-}
-
-.imagen-tarifas {
-  width: 200px;
-  padding: 0;
-  margin: 0;
-}
-
-.contenedor-tarifas .widget-1 {
-  color: white;
-  width: 250px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-area: widget-1;
-}
-
-.contenedor-tarifas .widget-2 {
-  color: white;
-  width: 250px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-area: widget-2;
-}
-
-.contenedor-tarifas .widget-3 {
-  color: white;
-  width: 250px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-area: widget-3;
-}
-
-.contenedor-tarifas .widget-4 {
-  color: white;
-  width: 250px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-area: widget-4;
-}
-
-.contenedor-tarifas .informativo {
-  color: black;
-  grid-area: informativo;
-}
-
+/*tarifas*/
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   .contenedor-tarifas {
     grid-template-areas: "titulo-Tarifas titulo-Tarifas titulo-Tarifas titulo-Tarifas" "contenido1 contenido1 contenido1 contenido1" "widget-1 widget-1 widget-1 widget-2" "contenido2 contenido2 contenido2 contenido2" "widget-3 widget-3 widget-3 widget-4" "informativo informativo informativo informativo";
@@ -339,6 +312,24 @@ body {
     width: 90%;
   }
 }
+* {
+  margin: 0;
+}
+
+body {
+  padding-top: 90px;
+  background: gray;
+}
+
+.navbar {
+  box-shadow: 0 4px 5px #e5e5e5;
+  background-color: rgb(217, 214, 211);
+}
+.navbar .logo {
+  height: 50px;
+  border-radius: 50px;
+}
+
 /*pagina contacto y ubicacion */
 .contenedor-contacto-ubicacion {
   width: 100%;
