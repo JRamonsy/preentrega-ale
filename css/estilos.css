@@ -18,6 +18,19 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*tipo de letra*/
+.titulo1, .titulo-pagina, #titulo-horarios {
+  font-size: 25px;
+}
+
+.descripcion, .lista-servicios {
+  font-size: 15px;
+}
+
+.terapia {
+  font-size: 18px;
+}
+
 .navbar {
   box-shadow: 0 4px 5px #e5e5e5;
   background-color: rgb(217, 214, 211);
@@ -37,7 +50,6 @@
   padding: 10px;
 }
 #contenedor-descripcion .titulo1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-left: 40px;
   padding-left: 100px;
 }
@@ -153,6 +165,9 @@
   justify-content: center;
   height: 250px;
   grid-column: 2/4;
+}
+.contenedor-sobre-mi .widget-2-sobre-mi .terapia {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .contenedor-sobre-mi .informativo {
   color: black;

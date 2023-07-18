@@ -1,0 +1,21 @@
+/*tipo de letra*/
+$font-size: (
+    "sub": 25px,
+    "texto": 15px,
+    "secundario": 18px
+);
+
+.titulo1, .titulo-pagina, #titulo-horarios{
+    font-size: map-get($map: $font-size, $key:sub );
+}
+
+.descripcion, .lista-servicios{
+    font-size: map-get($map: $font-size, $key: texto);
+}
+
+.terapia {
+    font-size: map-get($map: $font-size, $key: secundario);
+}
+
+
+
