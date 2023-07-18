@@ -53,7 +53,7 @@
   }
   .widget-2-sobre-mi {
     background: blueviolet;
-    color: white;
+    color: $color-5;
     height: 100px;
     text-align: center;
     display: flex;
@@ -63,7 +63,7 @@
     grid-column: 2/4;
   }
   .informativo {
-    color: black;
+    color: $color-6;
     grid-column: span 3;
   }
 }
