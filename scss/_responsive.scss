@@ -134,3 +134,49 @@
 }
 
 }
+
+/*contacto y ubicacion*/
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .contenedor-contacto-ubicacion {
+    grid-template-areas: "titulo-contacto titulo-contacto"
+      "contenido-contacto contenido-contacto"
+      "titulo-ubicacion titulo-ubicacion"
+      "contenido-ubicacion contenido-ubicacion"
+      "mapa mapa"
+      "informativo informativo";
+
+
+  }
+
+  .contenido-contacto {
+    text-align: center;
+
+  }
+
+  .contenido-ubicacion {
+    padding-left: 170px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor-contacto-ubicacion {
+    grid-template-areas: "titulo-contacto titulo-contacto"
+      "contenido-contacto contenido-contacto"
+      "titulo-ubicacion titulo-ubicacion"
+      "contenido-ubicacion contenido-ubicacion"
+      "mapa mapa"
+      "informativo informativo";
+
+
+
+  }
+
+  .contenido-contacto {
+    padding-left: 50px;
+  }
+
+  .contenido-ubicacion {
+    width: 90%;
+  }
+}

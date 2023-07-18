@@ -209,6 +209,57 @@
   grid-area: informativo;
 }
 
+.contenedor-contacto-ubicacion > div,
+.contenedor-contacto-ubicacion .titulo-contacto .contenedor-contacto-ubicacion .contenido-contacto .contenedor-contacto-ubicacion .titulo-ubicacion .contenedor-contacto-ubicacion .contenido-ubicacion {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.contenedor-contacto-ubicacion {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "titulo-contacto titulo-contacto" "contenido-contacto contenido-contacto" "titulo-ubicacion titulo-ubicacion" "mapa contenido-ubicacion" "informativo informativo";
+}
+.contenedor-contacto-ubicacion .titulo-contacto {
+  text-align: center;
+  color: black;
+  grid-area: titulo-contacto;
+}
+.contenedor-contacto-ubicacion .contenido-contacto {
+  text-align: center;
+  grid-area: contenido-contacto;
+}
+.contenedor-contacto-ubicacion .titulo-ubicacion {
+  text-align: center;
+  color: black;
+  grid-area: titulo-ubicacion;
+}
+.contenedor-contacto-ubicacion .contenido-ubicacion {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  grid-area: contenido-ubicacion;
+}
+.contenedor-contacto-ubicacion .contenido-ubicacion .mapa {
+  color: white;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: mapa;
+}
+.contenedor-contacto-ubicacion .informativo {
+  color: black;
+  grid-area: informativo;
+}
+
 /* index*/
 @media (max-width: 600px) {
   #contenedor-descripcion {
@@ -312,82 +363,7 @@
     width: 90%;
   }
 }
-* {
-  margin: 0;
-}
-
-body {
-  padding-top: 90px;
-  background: gray;
-}
-
-.navbar {
-  box-shadow: 0 4px 5px #e5e5e5;
-  background-color: rgb(217, 214, 211);
-}
-.navbar .logo {
-  height: 50px;
-  border-radius: 50px;
-}
-
-/*pagina contacto y ubicacion */
-.contenedor-contacto-ubicacion {
-  width: 100%;
-  max-width: 1000px;
-  margin: 20px auto;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, auto);
-  grid-template-areas: "titulo-contacto titulo-contacto" "contenido-contacto contenido-contacto" "titulo-ubicacion titulo-ubicacion" "mapa contenido-ubicacion" "informativo informativo";
-}
-
-.contenedor-contacto-ubicacion > div,
-.contenedor-contacto-ubicacion .titulo-contacto .contenedor-contacto-ubicacion .contenido-contacto .contenedor-contacto-ubicacion .titulo-ubicacion .contenedor-contacto-ubicacion .contenido-ubicacion {
-  padding: 20px;
-  border-radius: 4px;
-}
-
-.contenedor-contacto-ubicacion .titulo-contacto {
-  text-align: center;
-  color: black;
-  grid-area: titulo-contacto;
-}
-
-.contenedor-contacto-ubicacion .contenido-contacto {
-  text-align: center;
-  grid-area: contenido-contacto;
-}
-
-.contenedor-contacto-ubicacion .titulo-ubicacion {
-  text-align: center;
-  color: black;
-  grid-area: titulo-ubicacion;
-}
-
-.contenedor-contacto-ubicacion .contenido-ubicacion {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  align-self: center;
-  grid-area: contenido-ubicacion;
-}
-
-.contenedor-contacto-ubicacion .mapa {
-  color: white;
-  height: 500px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-area: mapa;
-}
-
-.contenedor-contacto-ubicacion .informativo {
-  color: black;
-  grid-area: informativo;
-}
-
+/*contacto y ubicacion*/
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   .contenedor-contacto-ubicacion {
     grid-template-areas: "titulo-contacto titulo-contacto" "contenido-contacto contenido-contacto" "titulo-ubicacion titulo-ubicacion" "contenido-ubicacion contenido-ubicacion" "mapa mapa" "informativo informativo";
@@ -409,6 +385,23 @@ body {
   .contenido-ubicacion {
     width: 90%;
   }
+}
+* {
+  margin: 0;
+}
+
+body {
+  padding-top: 90px;
+  background: gray;
+}
+
+.navbar {
+  box-shadow: 0 4px 5px #e5e5e5;
+  background-color: rgb(217, 214, 211);
+}
+.navbar .logo {
+  height: 50px;
+  border-radius: 50px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

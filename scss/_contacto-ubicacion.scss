@@ -1,0 +1,72 @@
+.contenedor-contacto-ubicacion>div,
+.contenedor-contacto-ubicacion .titulo-contacto .contenedor-contacto-ubicacion .contenido-contacto .contenedor-contacto-ubicacion .titulo-ubicacion .contenedor-contacto-ubicacion .contenido-ubicacion {
+  padding: 20px;
+  border-radius: 4px;
+}
+.contenedor-contacto-ubicacion {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "titulo-contacto titulo-contacto"
+    "contenido-contacto contenido-contacto"
+    "titulo-ubicacion titulo-ubicacion"
+    "mapa contenido-ubicacion"
+    "informativo informativo";
+    .titulo-contacto {
+      text-align: center;
+      color: black;
+      grid-area: titulo-contacto;
+    }
+    .contenido-contacto {
+      text-align: center;
+      grid-area: contenido-contacto;
+    }
+    .titulo-ubicacion {
+      text-align: center;
+      color: black;
+      grid-area: titulo-ubicacion;
+    }
+    .contenido-ubicacion {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      align-self: center;
+      grid-area: contenido-ubicacion;
+        .mapa {
+          color: white;
+          height: 500px;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          grid-area: mapa;
+        }
+    }
+    .informativo {
+      color: black;
+      grid-area: informativo;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
