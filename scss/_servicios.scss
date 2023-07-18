@@ -12,13 +12,10 @@ grid-template-columns: 60% 40%;
     height: 350px;
   }
   .imagenes-servicios {
-    height: 350px;
-    text-align: center;
-    padding-right: 80px;
+    @extend .alineamiento;
   }
   .imagen-servicios {
-    width: 280px;
-    padding-top: 90px;
+    @extend .alineamiento-2;
   }
   .lista-servicios3 {
     padding-left: 120px;

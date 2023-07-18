@@ -37,40 +37,20 @@
       grid-area: contenido2;
     }
     .widget-1 {
-      color: white;
-      width: 250px;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend .alineacion-widgets;
       grid-area: widget-1;
         
     }
     .widget-2 {
-      color: white;
-      width: 250px;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend .alineacion-widgets;
       grid-area: widget-2;
     }
     .widget-3 {
-      color: white;
-      width: 250px;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend .alineacion-widgets;
       grid-area: widget-3;
     }
     .widget-4 {
-      color: white;
-      width: 250px;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend .alineacion-widgets;
       grid-area: widget-4;
     }
     .imagen-tarifas {
