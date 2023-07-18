@@ -1,0 +1,42 @@
+.titulo-pagina {
+    margin: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedor-descripcion {
+    display: flex;
+    padding: 10px;
+
+    .titulo1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 40px;
+        padding-left: 100px;
+    }
+
+    .descripcion {
+        padding-left: 50px;
+        width: 500px;
+        margin: 10px;
+    }
+
+    .contenedor-tarjeta {
+        width: 500px;
+        text-align: center;
+        padding-top: 75px;
+
+        .tarjeta {
+            width: 400px;
+        }
+    }
+}
+
+.informativo {
+    text-align: center;
+}
+
+.slogan {
+    text-align: center;
+    background: lightgray;
+    text-transform: uppercase;
+}

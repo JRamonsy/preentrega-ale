@@ -1,0 +1,69 @@
+.contenedor-sobre-mi>div,
+.contenedor-sobre-mi .titulo-sobre-mi 
+.contenedor-sobre-mi .estudios 
+.contenedor-sobre-mi .contenido-sobre-mi 
+.contenedor-sobre-mi .sidebar-sobre-mi
+.contenedor-sobre-mi .informativo {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.contenedor-sobre-mi {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  .titulo-sobre-mi {
+    color: black;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .estudios {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .contenido-sobre-mi {
+    grid-column: span 2;
+  }
+  .sidebar-sobre-mi {
+    grid-column: 3/4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span -2;
+      .imagen-sobre-mi {
+        height: 400px;
+      }
+  }
+  .widget-1-sobre-mi {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+      .imagen-inter {
+        height: 200px;
+      }
+  }
+  .widget-2-sobre-mi {
+    background: blueviolet;
+    color: white;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    grid-column: 2/4;
+  }
+  .informativo {
+    color: black;
+    grid-column: span 3;
+  }
+}

@@ -1,0 +1,87 @@
+/* index*/
+@media (max-width: 600px) {
+    #contenedor-descripcion {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    #contenedor-descripcion {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .bienvenidos {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor-tarjeta {
+        text-align: center;
+        margin: auto;
+        align-self: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .bienvenidos {
+        text-align: center;
+        padding-right: 140px;
+    }
+}
+
+/*servicios*/
+@media all and (max-width: 1023px) {
+  .lista-servicios {
+    grid-column: 1 / span 3;
+    text-align: center;
+    list-style-type: none;
+    padding-right: 60px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+    .imagenes-servicios {
+        grid-column: 1 / span 3;
+        height: 210px;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .imagen-servicios {
+        padding-top: 10px;
+        margin-left: 120px;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .lista-servicios3 {
+        grid-column: 1 / span 3;
+        text-align: center;
+        list-style-type: none;
+        height: 190px;
+        padding-right: 60px;
+    }
+}
+
+/* Sobre mi*/
+@media screen and (max-width: 576px) {
+    .contenedor-sobre-mi .contenido-sobre-mi {
+        grid-column: 1 / -1;
+    }
+
+    .contenedor-sobre-mi .sidebar-sobre-mi {
+        grid-column: 1 / -1;
+        padding-right: 100px;
+    }
+
+    .contenedor-sobre-mi .widget-1-sobre-mi,
+    .contenedor-sobre-mi .widget-2-sobre-mi {
+        grid-column: span 3;
+    }
+
+}
