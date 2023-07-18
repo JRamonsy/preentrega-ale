@@ -1,3 +1,4 @@
+@import "navbar";
 @import "index";
 @import "servicios";
 @import "sobre mi";
@@ -5,21 +6,11 @@
 @import "contacto-ubicacion";
 @import "responsive";
 
-
-
 * {
   margin: 0;
-    
 }
 body {
   padding-top: 90px;
   background: gray;
 }
-.navbar {
-  box-shadow: 0 4px 5px #e5e5e5;
-  background-color: rgb(217, 214, 211);
-  .logo {
-    height: 50px;
-    border-radius: 50px;
-  }
-}
+
