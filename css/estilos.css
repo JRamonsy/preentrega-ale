@@ -169,7 +169,7 @@ footer .slogan {
   height: 200px;
 }
 .contenedor-sobre-mi .widget-2-sobre-mi {
-  background: blueviolet;
+  background: linear-gradient(to top, blueviolet, rgb(64, 5, 118));
   color: white;
   height: 100px;
   text-align: center;
