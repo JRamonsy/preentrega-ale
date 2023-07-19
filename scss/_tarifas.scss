@@ -2,7 +2,7 @@
 .contenedor-tarifas .titulo-Tarifas 
 .contenedor-tarifas .contenido1 
 .contenedor-tarifas .contenido2 
-.contenedor-tarifas .informativo {
+.contenedor-tarifas .pie-tarifas {
   padding: 5px;
   border-radius: 4px;
 }
@@ -17,9 +17,9 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
   grid-template-areas: "titulo-Tarifas titulo-Tarifas titulo-Tarifas titulo-Tarifas"
-    "widget-1 contenido1 contenido1 widget-2"
-    "widget-3 contenido2 contenido2 widget-4"
-    "informativo informativo informativo informativo";
+                      "widget-1 contenido1 contenido1 widget-2"
+                      "widget-3 contenido2 contenido2 widget-4"
+                      "pie-tarifas pie-tarifas pie-tarifas pie-tarifas";
     .titulo-Tarifas {
       color: black;
       text-align: center;
@@ -58,9 +58,9 @@
       padding: 0;
       margin: 0;
         }
-    .informativo {
+    .pie-tarifas{
       color: black;
-      grid-area: informativo;
+      grid-area: pie-tarifas;
     }
 }
 

@@ -62,12 +62,12 @@
     height: 250px;
     grid-column: 2/4;
       .terapia{
-        
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
   }
-  .informativo {
-    color: $color-6;
-    grid-column: span 3;
-  }
+    .pie-sobre {
+      color: $color-6;
+      grid-column: span 3;
+    }
+  
 }

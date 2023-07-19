@@ -1,4 +1,4 @@
-/* colores */ /*pagina index y servicios*/
+/* colores */ /*alineacion del footer*/ /*pagina index y servicios*/
 .titulo-pagina {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -60,6 +60,17 @@
   border-radius: 50px;
 }
 
+footer .informativo {
+  text-align: center;
+  background: white;
+  text-transform: none;
+}
+footer .slogan {
+  text-align: center;
+  background: lightgray;
+  text-transform: uppercase;
+}
+
 .titulo-pagina {
   margin: 10px;
   text-align: center;
@@ -87,16 +98,6 @@
   width: 400px;
 }
 
-.informativo {
-  text-align: center;
-}
-
-.slogan {
-  text-align: center;
-  background: lightgray;
-  text-transform: uppercase;
-}
-
 .contenedor-servicios {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -108,14 +109,15 @@
   padding-right: 100px;
 }
 .contenedor-servicios .lista-servicios {
-  padding-left: 120px;
+  padding-left: 130px;
   height: 350px;
+  margin: 5px;
 }
 .contenedor-servicios .lista-servicios3 {
-  padding-left: 120px;
+  padding-left: 130px;
   height: 350px;
+  margin: 5px;
 }
-
 .contenedor-sobre-mi > div,
 .contenedor-sobre-mi .titulo-sobre-mi .contenedor-sobre-mi .estudios .contenedor-sobre-mi .contenido-sobre-mi .contenedor-sobre-mi .sidebar-sobre-mi .contenedor-sobre-mi .informativo {
   padding: 20px;
@@ -180,13 +182,13 @@
 .contenedor-sobre-mi .widget-2-sobre-mi .terapia {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.contenedor-sobre-mi .informativo {
+.contenedor-sobre-mi .pie-sobre {
   color: black;
   grid-column: span 3;
 }
 
 .contenedor-tarifas > div,
-.contenedor-tarifas .titulo-Tarifas .contenedor-tarifas .contenido1 .contenedor-tarifas .contenido2 .contenedor-tarifas .informativo {
+.contenedor-tarifas .titulo-Tarifas .contenedor-tarifas .contenido1 .contenedor-tarifas .contenido2 .contenedor-tarifas .pie-tarifas {
   padding: 5px;
   border-radius: 4px;
 }
@@ -199,7 +201,7 @@
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: "titulo-Tarifas titulo-Tarifas titulo-Tarifas titulo-Tarifas" "widget-1 contenido1 contenido1 widget-2" "widget-3 contenido2 contenido2 widget-4" "informativo informativo informativo informativo";
+  grid-template-areas: "titulo-Tarifas titulo-Tarifas titulo-Tarifas titulo-Tarifas" "widget-1 contenido1 contenido1 widget-2" "widget-3 contenido2 contenido2 widget-4" "pie-tarifas pie-tarifas pie-tarifas pie-tarifas";
 }
 .contenedor-tarifas .titulo-Tarifas {
   color: black;
@@ -234,9 +236,9 @@
   padding: 0;
   margin: 0;
 }
-.contenedor-tarifas .informativo {
+.contenedor-tarifas .pie-tarifas {
   color: black;
-  grid-area: informativo;
+  grid-area: pie-tarifas;
 }
 
 .contenedor-contacto-ubicacion > div,
@@ -253,7 +255,7 @@
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: "titulo-contacto titulo-contacto" "contenido-contacto contenido-contacto" "titulo-ubicacion titulo-ubicacion" "mapa contenido-ubicacion" "informativo informativo";
+  grid-template-areas: "titulo-contacto titulo-contacto" "contenido-contacto contenido-contacto" "titulo-ubicacion titulo-ubicacion" "mapa contenido-ubicacion" "pie pie";
 }
 .contenedor-contacto-ubicacion .titulo-contacto {
   text-align: center;
@@ -285,9 +287,8 @@
   justify-content: center;
   grid-area: mapa;
 }
-.contenedor-contacto-ubicacion .informativo {
-  color: black;
-  grid-area: informativo;
+.contenedor-contacto-ubicacion .pie {
+  grid-area: pie;
 }
 
 /* index*/

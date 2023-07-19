@@ -1,0 +1,7 @@
+/*alineacion del footer*/
+
+@mixin alineacion-footer($alinacion, $color, $texto){
+    text-align: $alinacion;
+    background: $color;
+    text-transform: $texto;
+}

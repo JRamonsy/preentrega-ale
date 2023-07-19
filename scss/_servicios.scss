@@ -8,18 +8,20 @@ grid-template-columns: 60% 40%;
     padding-right: 100px;
   }
   .lista-servicios {
-    padding-left: 120px;
+    padding-left: 130px;
     height: 350px;
+    margin: 5px;
+  }
+  .lista-servicios3 {
+    padding-left: 130px;
+    height: 350px;
+    margin: 5px;
   }
   .imagenes-servicios {
     @extend .alineamiento;
   }
   .imagen-servicios {
     @extend .alineamiento-2;
-  }
-  .lista-servicios3 {
-    padding-left: 120px;
-    height: 350px;
   }
 }
 

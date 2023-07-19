@@ -15,7 +15,7 @@
     "contenido-contacto contenido-contacto"
     "titulo-ubicacion titulo-ubicacion"
     "mapa contenido-ubicacion"
-    "informativo informativo";
+    "pie pie";
     .titulo-contacto {
       text-align: center;
       color: black;
@@ -46,9 +46,8 @@
           grid-area: mapa;
         }
     }
-    .informativo {
-      color: black;
-      grid-area: informativo;
+    .pie {
+      grid-area: pie;
     }
 }
 

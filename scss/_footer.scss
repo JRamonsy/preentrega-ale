@@ -1,0 +1,10 @@
+footer{
+  .informativo {
+    @include alineacion-footer (center, $color-5, none);
+  }
+  .slogan {
+    @include alineacion-footer (center, $color-3, uppercase );
+  }
+}
+
+
