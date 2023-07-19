@@ -18,14 +18,22 @@
         padding-left: 50px;
         width: 500px;
         margin: 10px;
+        text-align: justify;
     }
     .contenedor-tarjeta {
         width: 500px;
         text-align: center;
         padding-top: 75px;
+        overflow: hidden;
+        margin: 20px;
 
         .tarjeta {
-            width: 400px;
+            width: 100%;
+            transition: 0.5s;
+            object-fit: cover;
+        }
+        .tarjeta:hover{
+            transform: scale(1.1);
         }
     }
 }

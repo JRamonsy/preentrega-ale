@@ -19,9 +19,15 @@ grid-template-columns: 60% 40%;
   }
   .imagenes-servicios {
     @extend .alineamiento;
+    transition: 0.5s;
   }
   .imagen-servicios {
     @extend .alineamiento-2;
+    transition: 0.5s;
+  }
+  .imagenes-servicios:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
   }
 }
 

@@ -28,16 +28,25 @@
   }
   .contenido-sobre-mi {
     grid-column: span 2;
+    text-align: justify;
   }
   .sidebar-sobre-mi {
+    width: 350px;
     grid-column: 3/4;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     grid-row: span -2;
+    overflow: hidden;
+    margin: 20px;
       .imagen-sobre-mi {
-        height: 400px;
+        width: 100%;
+        transition: 0.5s;
+        object-fit: cover;
+      }
+      .imagen-sobre-mi:hover{
+        transform: scale(1.3);
       }
   }
   .widget-1-sobre-mi {
@@ -49,7 +58,12 @@
     height: 250px;
       .imagen-inter {
         height: 200px;
+        transition: 0.5s;
       }
+  .imagen-inter:hover{
+    cursor: pointer;
+    transform: scale(1.2, 1.5);
+  }
   }
   .widget-2-sobre-mi {
     background: linear-gradient(to top, blueviolet, rgb(64, 5, 118));

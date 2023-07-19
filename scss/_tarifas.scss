@@ -39,6 +39,7 @@
     .widget-1 {
       @extend .alineacion-widgets;
       grid-area: widget-1;
+      
         
     }
     .widget-2 {
@@ -54,10 +55,13 @@
       grid-area: widget-4;
     }
     .imagen-tarifas {
-      width: 200px;
-      padding: 0;
-      margin: 0;
-        }
+      width: 100%;
+      transition: 0.5s;
+      object-fit: cover;
+    }
+    .imagen-tarifas:hover{
+      transform: scale(1.5);
+    }
     .pie-tarifas{
       color: black;
       grid-area: pie-tarifas;
