@@ -132,7 +132,7 @@
       "titulo-ubicacion titulo-ubicacion"
       "contenido-ubicacion contenido-ubicacion"
       "mapa mapa"
-      "informativo informativo";
+      "pie pie";
 
 
   }
@@ -142,23 +142,19 @@
 
   }
 
-  .contenido-ubicacion {
-    padding-left: 170px;
-
+.contenido-ubicacion {
+  padding-left: 170px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .contenedor-contacto-ubicacion {
-    grid-template-areas: "titulo-contacto titulo-contacto"
-      "contenido-contacto contenido-contacto"
-      "titulo-ubicacion titulo-ubicacion"
-      "contenido-ubicacion contenido-ubicacion"
-      "mapa mapa"
-      "informativo informativo";
-
-
-
+.contenedor-contacto-ubicacion {
+  grid-template-areas: "titulo-contacto titulo-contacto"
+    "contenido-contacto contenido-contacto"
+    "titulo-ubicacion titulo-ubicacion"
+    "contenido-ubicacion contenido-ubicacion"
+    "mapa mapa"
+    "pie pie";
   }
 
   .contenido-contacto {
